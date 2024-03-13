@@ -1,0 +1,15 @@
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Make the div take up the full viewport height */
+    width: 100vw; /* Make the div take up the full viewport width */
+    background-image:  url('../public/images/ddn-bg.jpeg');
+    background-size: cover; 
+    background-position: center;
+}
+
+.home-button{
+    background-color: #6e292b;
+    border: none;
+}
