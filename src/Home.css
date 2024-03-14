@@ -4,9 +4,15 @@
     align-items: center;
     height: 100vh; /* Make the div take up the full viewport height */
     width: 100vw; /* Make the div take up the full viewport width */
-    background-image:  url('../public/images/ddn-bg.jpeg');
-    background-size: cover; 
+    background-image: url('../public/images/ddn-bg.jpeg');
+    background-size: 100% 100%; /* Scale the background image to cover the entire div */
     background-position: center;
+}
+
+.btn-container{
+    margin: 0;
+    padding: 0;
+    background-color: #94849c;
 }
 
 .home-button{
@@ -15,10 +21,9 @@
     background-color: #94849c;
     border: none;
     padding: .6em 1.2em;
+    margin: 0 !important;
 }
 
 .home-button:hover{
     background-color: #3c152a;
-    border: solid;
-    border-color: #94849c;
 }
