@@ -10,9 +10,10 @@ import ELO from './ELO.js';
 import Teams from './Teams.js';
 
 function App() {
+  const basename = process.env.NODE_ENV === 'development' ? '/' : 'https://rheajshah.github.io/ddn-app';
   return (
     <div className="App">
-      <BrowserRouter>
+      <BrowserRouter basename={basename}>
         <Routes>
           <Route path="/" element={(<Home/>)} />
           <Route path='/comps' element={(<Comps/>)}/>
